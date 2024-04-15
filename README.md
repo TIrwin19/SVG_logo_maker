@@ -24,6 +24,7 @@ This app allows the user to generate an svg logo by answering four questions in 
 
 ## Usage 
 The user will enter "node index.js" into their VScode terminal and answer the questions they are prompted with. The first question will ask for a three letter acrynym and second for a color of the text entered. The third question will give you a choice of three shapes, triangle, circle, or square. The final question will ask for a color of the shape selected. Once they answer the final quesion a logo.svg file will be created in the examples folder. Note that the colors entered need to be either a color keyword like "red" or a hexidecimal number starting with # like "#4F5B66".
+(Note: The user will have to have node installed and also install inquirer and jest from npm in order to use this app)
 
 ## Credits
 JD Tadlock for all the instruction in the Rutgers Coding Bootcamp
